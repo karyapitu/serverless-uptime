@@ -1,13 +1,74 @@
 (() => {
   var TARGETS = [{
-          name: "Add your target",
-          url: "https://example.com"
+          name: "https://oo.vlesscf.us.kg",
+          url: "https://oo.vlesscf.us.kg",
+          checker: checkMoneroDaemon
       },
       {
-        name: "Add your target",
-        url: "https://xmr.example.com",
+        name: "http://oo.kodenul.my.id",
+        url: "http://oo.kodenul.my.id",
         checker: checkMoneroDaemon
-    }
+      },
+      {
+        name: "http://amazon.vlesscf.us.kg",
+        url: "http://amazon.vlesscf.us.kg",
+        checker: checkMoneroDaemon
+      },
+      {
+        name: "https://ovh.vlesscf.us.kg",
+        url: "https://ovh.vlesscf.us.kg",
+        checker: checkMoneroDaemon
+      },
+      {
+        name: "http://tencent.vlesscf.us.kg",
+        url: "http://tencent.vlesscf.us.kg",
+        checker: checkMoneroDaemon
+      },
+      {
+        name: "https://alibaba.vlesscf.us.kg",
+        url: "https://alibaba.vlesscf.us.kg",
+        checker: checkMoneroDaemon
+      },
+      {
+        name: "https://id.vlesscf.us.kg",
+        url: "https://id.vlesscf.us.kg",
+        checker: checkMoneroDaemon
+      },
+      {
+        name: "http://b6gac.vlesscf.us.kg",
+        url: "http://b6gac.vlesscf.us.kg",
+        checker: checkMoneroDaemon
+      },
+      {
+        name: "http://bestipone.vlesscf.us.kg",
+        url: "http://bestipone.vlesscf.us.kg",
+        checker: checkMoneroDaemon
+      },
+      {
+        name: "http://anycast.vlesscf.us.kg",
+        url: "http://anycast.vlesscf.us.kg",
+        checker: checkMoneroDaemon
+      },
+      {
+        name: "http://trojan.kodenul.my.id",
+        url: "http://trojan.kodenul.my.id",
+        checker: checkMoneroDaemon
+      },
+      {
+        name: "https://trojansg.vlesscf.us.kg",
+        url: "https://trojansg.vlesscf.us.kg",
+        checker: checkMoneroDaemon
+      },
+      {
+        name: "https://trojanid.vlesscf.us.kg",
+        url: "https://trojanid.vlesscf.us.kg",
+        checker: checkMoneroDaemon
+      },
+
+
+
+
+
   ];
   async function checkMoneroDaemon() {
       try {
